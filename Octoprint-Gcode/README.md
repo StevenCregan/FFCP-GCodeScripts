@@ -6,6 +6,10 @@ This Folder contains:
 
 ## Usage
 
+When using Octoprint with the FFCP, you will need to have the GPX plugin. This will allow Octoprint to communicate via USB to the printer.
+It's recommended to increase the "Pause after connection" value, to ensure the machine has had enough time to start properly.
+I personally have also turned off the "Clear coordinate system before print start" option.
+
 After getting Octoprint set up, the scripts contained in this folder can be copied into the GCode Scripts section
 
 
