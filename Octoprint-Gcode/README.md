@@ -14,11 +14,11 @@ After getting Octoprint set up, the scripts contained in this folder can be copi
 
 
 ### Connect
-~~The [Connect script](./connect.gcode) is used due to a communication error when connecting to the FFCP over USB from an Octoprint server.
+~~The [Connect script](./connect.gcode) is used due to a communication error when connecting to the FFCP over USB from an Octoprint server.~~
 
-~~Starting a print after connecting without running this script will sometimes cause the carriage to ram into the endstops, or lose it's position.
+~~Starting a print after connecting without running this script will sometimes cause the carriage to ram into the endstops, or lose it's position.~~
 
-~~Running this script on connect seems to alleviate this issue
+~~Running this script on connect seems to alleviate this issue~~
 
 The struckthrough issue noted above was caused by sending checksums with the automatic connection scripts, which while technically a "communication error", was caused by user misconfiguration.
 
